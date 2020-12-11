@@ -1,0 +1,98 @@
+.logo{
+  width: 80px;
+  height: 80px;
+  color: aliceblue;
+}
+.footer-logo{
+  position: relative;
+  top:-20px;
+}
+body{
+  position: relative;
+  top:120px;
+  font-family: 'Domine', serif;
+  background-color: #ebf7f7;
+}
+.navfont{
+  font-family: 'Acme', serif;
+  background-color: #75A7DA;
+}
+.footfont{
+  font-family: 'Acme', serif;
+  background-color: #75A7DA;
+}
+.drop{
+  font-family: 'Quicksand', serif;
+}
+.dropdownLinks{
+  color: black;
+}
+.social-icons{
+  display: flex;
+  position: relative;
+  align-items: center;
+  bottom: 50px;
+  font-size: 50px;
+  line-height: 50px;
+}
+.socialize{
+  font-size: 50px;
+  line-height: 50px;
+  justify-content: center;
+}
+.important-links{
+  position: relative;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  padding: 20px;
+  justify-content: center;
+}
+.fab{ 
+  font-size: 20px; 
+}
+.fa{ 
+  font-size: 20px; 
+}
+.ft{ 
+  font-size: 30px; 
+}
+.navtab{
+  color: #07006C;
+  border-left:0.2px solid  #75A7DA;
+}
+.navtab-title{
+  color: #07006C;;
+  font-family: 'Acme', serif;
+  font-size: 20px;
+  padding: 5px;
+}
+.inner-nav{
+  background-color:#bbddff; 
+  padding: 10px;
+  margin:0px;
+  position: relative;
+  top: -10px;
+}
+
+
+
+
+
+/*@media queries*/
+@media only screen and (max-width: 600px) {
+  .social-icons{
+    display: flex;
+    position: relative;
+    align-items: center;
+    bottom: 0px;
+  }
+  .navtab{
+    border-left:0px solid  #75A7DA;
+  }
+  .inner-nav{
+    top: -15px;
+    justify-self: center;
+  }
+}
